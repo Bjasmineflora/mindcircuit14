@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: facebook
-  replicas: 3
+  replicas: 2
   template: 
     metadata:
       name: fbpod
